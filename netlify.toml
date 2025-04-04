@@ -1,8 +1,7 @@
-# Netlify 配置文件
-
 [build]
   publish = "./"
-  command = "# 无需构建命令，这是一个静态网站"
+  command = ""
+  functions = "" # 明确表示不使用 Netlify Functions
 
 # 重定向和自定义头信息
 [[headers]]
@@ -13,10 +12,3 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'"
-
-# 确保单页应用路由正常工作
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
