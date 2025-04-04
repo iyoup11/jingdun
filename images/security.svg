@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="300" height="300">
+  <defs>
+    <linearGradient id="shield-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3366ff" />
+      <stop offset="100%" stop-color="#0044cc" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆 -->
+  <circle cx="256" cy="256" r="240" fill="#f0f4ff" />
+  
+  <!-- 盾牌 -->
+  <path d="M256 120l-120 40v80c0 88.4 51.6 134.8 120 160 68.4-25.2 120-71.6 120-160v-80l-120-40z" fill="url(#shield-gradient)" />
+  
+  <!-- 锁 -->
+  <path d="M256 180c-22.1 0-40 17.9-40 40v20h-10c-5.5 0-10 4.5-10 10v60c0 5.5 4.5 10 10 10h100c5.5 0 10-4.5 10-10v-60c0-5.5-4.5-10-10-10h-10v-20c0-22.1-17.9-40-40-40zm0 20c11 0 20 9 20 20v20h-40v-20c0-11 9-20 20-20z" fill="white" />
+  
+  <!-- 对勾 -->
+  <path d="M236 280l-15 15 35 35 55-55-15-15-40 40z" fill="white" />
+  
+  <!-- 装饰线 -->
+  <path d="M150 150c-33.1 33.1-53.6 78.9-53.6 129.4m319.2 0c0-50.5-20.5-96.3-53.6-129.4" stroke="#0044cc" stroke-width="8" stroke-linecap="round" stroke-dasharray="15 10" fill="none" />
+</svg>

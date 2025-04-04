@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="400" height="300">
+  <!-- 手机外壳 -->
+  <rect x="250" y="50" width="300" height="500" rx="20" ry="20" fill="#333" />
+  <rect x="260" y="80" width="280" height="440" rx="5" ry="5" fill="#fff" />
+  
+  <!-- 应用界面 -->
+  <rect x="280" y="100" width="240" height="50" rx="5" ry="5" fill="#3366ff" />
+  <circle cx="300" cy="125" r="15" fill="white" />
+  <text x="330" y="130" font-family="Arial" font-size="18" fill="white">晶盾</text>
+  
+  <!-- 文件列表 -->
+  <rect x="280" y="170" width="240" height="50" rx="5" ry="5" fill="#f5f7fa" />
+  <rect x="290" y="180" width="30" height="30" rx="5" ry="5" fill="#3366ff" opacity="0.2" />
+  <text x="330" y="200" font-family="Arial" font-size="14" fill="#333">文档1.docx</text>
+  
+  <rect x="280" y="230" width="240" height="50" rx="5" ry="5" fill="#f5f7fa" />
+  <rect x="290" y="240" width="30" height="30" rx="5" ry="5" fill="#3366ff" opacity="0.2" />
+  <text x="330" y="260" font-family="Arial" font-size="14" fill="#333">照片.jpg</text>
+  
+  <rect x="280" y="290" width="240" height="50" rx="5" ry="5" fill="#f5f7fa" />
+  <rect x="290" y="300" width="30" height="30" rx="5" ry="5" fill="#3366ff" opacity="0.2" />
+  <text x="330" y="320" font-family="Arial" font-size="14" fill="#333">机密.pdf</text>
+  
+  <!-- 加密按钮 -->
+  <rect x="300" y="370" width="200" height="50" rx="25" ry="25" fill="#3366ff" />
+  <text x="360" y="400" font-family="Arial" font-size="18" font-weight="bold" fill="white">加密文件</text>
+  
+  <!-- 底部导航 -->
+  <rect x="280" y="450" width="240" height="50" rx="5" ry="5" fill="#f5f7fa" />
+  <circle cx="330" cy="475" r="15" fill="#3366ff" opacity="0.5" />
+  <circle cx="400" cy="475" r="15" fill="#3366ff" />
+  <circle cx="470" cy="475" r="15" fill="#3366ff" opacity="0.5" />
+</svg>
